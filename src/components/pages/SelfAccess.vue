@@ -1,8 +1,9 @@
 <template>
   <div class="p-20 text-3xl">
-    <h1 class="font-black">Self Accessment</h1>
-    &nbsp;
-    <p>How are you feeling today?</p>
+    <div class="text-center">
+      <h1 class="font-black">Self Accessment</h1>
+      <p>How are you feeling today?</p>
+    </div>
     <br />
     <h1 class="font-medium">Happiness</h1>
     <br />
@@ -42,6 +43,7 @@
     <br />
     <br />
     <br />
+
     <div class="font-medium text-red-300">
       Today I'm feeling {{ happiness }}, {{ excitement }} and {{ control }}
     </div>

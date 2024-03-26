@@ -1,28 +1,36 @@
 <template>
   <div class="p-20 text-3xl">
-    <p class="font-black">About Us</p>
-    <p>Makers of EMAEMI</p>
+    <div class="text-center">
+      <p class="font-black">About Us</p>
+      <p>Makers of EMAEMI</p>
+    </div>
     &nbsp;
-    <img src="../img/Woo.jpg" alt="Woo" class="w-96" />
-    <p>
-      Woo Yoo <br />
-      MSc Researcher at the Psychology Faculty of the University of Bern <br />
-      President of the Biomedical Engineering Society
-    </p>
+    <div class="flex justify-evenly">
+      <img src="../img/Woo.jpg" alt="Woo" class="h-96 rounded-full" />
+      <p class="pt-40">
+        Woo Yoo <br />
+        MSc Researcher at the Psychology Faculty of the University of Bern <br />
+        President of the Biomedical Engineering Society
+      </p>
+    </div>
     &nbsp;
-    <img src="../img/Chaewon-2.jpg" alt="Chaewon" class="w-96" />
-    <p>
-      Chaewon Yoo <br />
-      Web Developer intern at Powercoders <br />
-      Writer of children's book "Cycling the silk road"
-    </p>
+    <div class="flex justify-evenly">
+      <img src="../img/Chaewon-2.jpg" alt="Chaewon" class="h-96 rounded-full" />
+      <p class="pt-40">
+        Chaewon Yoo <br />
+        Web Developer intern at Powercoders <br />
+        Writer of children's book "Cycling the silk road"
+      </p>
+    </div>
     &nbsp;
-    <p class="font-black">Contact Us</p>
-    <p>
-      Would you like to get in-depth consultation with us?
-      <br />
-      Do you have ideas to improve our website?
-    </p>
+    <div class="text-center">
+      <p class="font-black">Contact Us</p>
+      <p>
+        Would you like to get in-depth consultation with us?
+        <br />
+        Do you have ideas to improve our website?
+      </p>
+    </div>
     &nbsp;
 
     <form>

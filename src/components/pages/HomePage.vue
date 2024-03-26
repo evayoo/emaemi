@@ -19,7 +19,7 @@
           are happy and healthy with baby. We provide resources and support to help you become the
           happy mother.
         </p>
-        <img src="../img/mom4.jpg" alt="mom" class="p-20" />
+        <img src="../img/mom4.jpg" alt="mom" class="p-20 rounded-full" />
       </section>
     </div>
   </div>

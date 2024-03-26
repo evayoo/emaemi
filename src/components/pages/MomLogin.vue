@@ -18,6 +18,7 @@
   </div>
 </template>
 
+todo : change it to setup 
 <script>
 export default {
   data() {
