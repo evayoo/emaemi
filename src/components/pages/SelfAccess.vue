@@ -8,38 +8,38 @@
     <h1 class="font-medium">Happiness</h1>
     <br />
     <img src="../img/happy.png" alt="happiness" class="w-screen" />
-    <div class="grid grid-cols-5 gap-5">
+    <!-- <div class="grid grid-cols-5 gap-5">
       <button @click="happiness = 'happy'" class="text-black">Happy</button>
       <button @click="happiness = 'positive'" class="text-black">Positive</button>
       <button @click="happiness = 'so-so'" class="text-black">So-so</button>
       <button @click="happiness = 'negative'" class="text-black">Negative</button>
       <button @click="happiness = 'unhappy'" class="text-black">Unhappy</button>
-    </div>
+    </div> -->
     <br />
 
     <h1 class="font-medium">Excitement</h1>
     <br />
     <img src="../img/excite.png" alt="happiness" class="w-screen" />
 
-    <div class="grid grid-cols-5 gap-5 text-black">
+    <!-- <div class="grid grid-cols-5 gap-5 text-black">
       <button @click="excitement = 'excited'" class="text-black">Excited</button>
       <button @click="excitement = 'bit excited'" class="text-black">Bit excited</button>
       <button @click="excitement = 'so-so'" class="text-black">So-so</button>
       <button @click="excitement = 'bit calm'" class="text-black">Bit calm</button>
       <button @click="excitement = 'calm'" class="text-black">Calm</button>
-    </div>
+    </div> -->
 
     &nbsp;
     <h1 class="font-medium">Control</h1>
     &nbsp;
     <img src="../img/ctrl.png" alt="happiness" class="w-screen" />
-    <div class="grid grid-cols-5 gap-5 text-black">
+    <!-- <div class="grid grid-cols-5 gap-5 text-black">
       <button @click="control = 'controlled'" class="text-black">Controlled</button>
       <button @click="control = 'bit controlled'" class="text-black">Bit controlled</button>
       <button @click="control = 'so-so'" class="text-black">So-so</button>
       <button @click="control = 'bit in control'" class="text-black">Bit in control</button>
       <button @click="control = 'in control'" class="text-black">In control</button>
-    </div>
+    </div> -->
     <br />
     <br />
     <br />

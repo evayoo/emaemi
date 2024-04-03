@@ -18,43 +18,37 @@
   </div>
 </template>
 
-todo : change it to setup 
-<script>
-export default {
-  data() {
-    return {
-      username: '',
-      password: '',
-      errorMessage: ''
-    }
-  },
-  methods: {
-    async login() {
-      try {
-        const response = await fetch('http://localhost:3000/auth', {
-          method: 'POST', // Adjust the method as needed
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            email: this.email,
-            password: this.password
-          })
-        })
+<script setup>
+import { ref } from 'vue'
 
-        if (response.ok) {
-          // Successful login
-          this.errorMessage = ''
-          alert('Login successful!')
-        } else {
-          // Failed login
-          this.errorMessage = 'Invalid username or password'
-        }
-      } catch (error) {
-        console.error('Error during login:', error)
-        this.errorMessage = 'An error occurred during login'
-      }
+const email = ref('')
+const password = ref('')
+const errorMessage = ref('')
+
+const login = async () => {
+  try {
+    const response = await fetch('http://localhost:3000/auth', {
+      method: 'POST', // Adjust the method as needed
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email: email.value,
+        password: password.value
+      })
+    })
+
+    if (response.ok) {
+      // Successful login
+      errorMessage.value = ''
+      alert('Login successful!')
+    } else {
+      // Failed login
+      errorMessage.value = 'Invalid username or password'
     }
+  } catch (error) {
+    console.error('Error during login:', error)
+    errorMessage.value = 'An error occurred during login'
   }
 }
 </script>
